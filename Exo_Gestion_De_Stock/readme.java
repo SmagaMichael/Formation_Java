@@ -1,0 +1,34 @@
+package Exo_Gestion_De_Stock;
+
+public @interface readme {
+
+}
+
+//Gestion d'un stock
+//Développez une application de gestion de stock.
+//Un article est caractérisé par 
+//son numéro de référence, son nom, son prix de vente et une quantité en stock.
+
+//Le stock est représenté par une collection d’articles.
+
+//Travail à faire:
+
+//Créer la classe article contenant les éléments suivants :
+
+//Les attributs/propriétés.
+//Un constructeur d’initialisation.
+//La méthode ToString().
+//Dans la classe Program créer :
+
+//Le stock sous forme d'une collection d’articles de votre choix.
+
+//Un menu présentant les fonctionnalités suivantes :
+
+//1. Rechercher un article par référence.
+//2. Ajouter un article au stock en vérifiant l’unicité de la référence.
+//3. Supprimer un article par référence.
+//4. Modifier un article par référence.
+//5. Rechercher un article par nom.
+//6. Rechercher un article par intervalle de prix de vente.
+//7. Afficher tous les articles.
+//8. Quitter
