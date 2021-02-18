@@ -3,14 +3,14 @@ package Exo_veto;
 public class Chat extends Animal{
 	
 	Chat(){
-		super("noir", 
+		super(Couleur.NOIR, 
 				"gouttière", 
 				1, 
 				"gros minet",
 				5);
 	}
 	
-	Chat(String couleur, String race, int age, String nom, float poids){
+	Chat(Couleur couleur, String race, int age, String nom, float poids){
 		super(couleur, race, age, nom, poids);
 	}
 
@@ -29,5 +29,5 @@ public class Chat extends Animal{
 		System.out.println("je dors 18h");
 	}
 	
-	
 }
+
